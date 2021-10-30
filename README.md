@@ -19,5 +19,15 @@ do desenvolvimento de uma feature?
 
 1. Considerando a imagem abaixo uma tela de um sistema WEB, levante o maior
 número possível de casos de teste.
-    - Completar todos os campos corretamente, aceitar os termos e concluir o registro;
-    - 
+    - Preencher todos os campos corretamente, aceitar os termos e concluir o registro;
+    - Preencher apenas um dos campos, aceitar os termos e concluir o registro;
+    - Não preencher nenhum campo, aceitar os termos e concluir o registro;
+    - Apenas apertar no botão de concluir;
+    - Escrever algo no campo "Senha" e apertar o botão de visualização;
+    - Escrever algo no campo "Confirmar Senha" e apertar o botão de vizualização;
+    - Clicar na logo;
+    - Preencher todos os campos corretamente, exceto o campo "CPF", inserir um cpf inválido;
+    - Preencher todos os campos corretamente, exceto o campo "senha", inserir uma senha menor que não atende a todos os requisitos
+    - Preencher todos os campos corretamente, exceto o campo "Telefone", inserir um número no formato errado de telefone.
+    - Preencher todos os campos corretamente, exceto o campo "Confirmar Senha", inserir uma senha diferente da colocada no campo "Senha";
+    - Preencher o campo "Nome Completo" com uma string de menos de 10 caracteres
