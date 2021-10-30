@@ -11,7 +11,7 @@
         - Testes de Ponta a Ponta
             - Chamados Também de testes end-to-end(E2E) ou testes de UI, o objetivo principal aqui é verificar a usabilidade da aplicação e devesse automatizar aquilo que for somente necessário pois o custo em tempo e dinheiro é maior nesses testes.
 
-    ![pirâmide](https://lh5.googleusercontent.com/X-68m7pb9ZTvyya78WrLIwz9331GbhAHFziKDHaW-fXdqAxCMZFjmlWx1GM0TepbuvZn9ARWvotBn05WmWsNznDjxFmkslFab7IKxh8ghhPdM4t-f380m--Hbx4gqejRkYVh1jwZ)
+                ![pirâmide](https://lh5.googleusercontent.com/X-68m7pb9ZTvyya78WrLIwz9331GbhAHFziKDHaW-fXdqAxCMZFjmlWx1GM0TepbuvZn9ARWvotBn05WmWsNznDjxFmkslFab7IKxh8ghhPdM4t-f380m--Hbx4gqejRkYVh1jwZ)
 
 1. Na sua percepção, por que é importante o analista de QA participar desde o início
 do desenvolvimento de uma feature?
