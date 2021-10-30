@@ -9,12 +9,15 @@
         - Testes de Serviços
             - Também chamados de testes de intregração, seu principal propósito é verificar a intregação da unidade nova ou modifica com todo o resto da aplicação. Geralmente, tem um custo moderado de tempo e dinheiro. E devem testar o que não consegue ser testado pelos teste unitários por motivos de isolamento geralmente.
         - Testes de Ponta a Ponta
-            - Chamados Também de testes end-to-end(E2E) ou testes de UI, o objetivo principal aqui é verificar a usabilidade da aplicação e devesse automatizar aquilo que for somente necessário pois o custo em tempo e dinheiro é maior nesses testes.
+            - Chamados Também de testes end-to-end(E2E) ou testes de UI, o objetivo principal aqui é verificar a usabilidade da aplicação e devesse automatizar aquilo que for somente necessário pois o custo em tempo e dinheiro é maior nesses testes. Vale ressaltar a necessidade de testes manuais mesmo após a validação dos testes ponta a ponta, pois nos testes manuais é possível avaliar coisas que a automatização não consegue.
 
                 ![pirâmide](https://lh5.googleusercontent.com/X-68m7pb9ZTvyya78WrLIwz9331GbhAHFziKDHaW-fXdqAxCMZFjmlWx1GM0TepbuvZn9ARWvotBn05WmWsNznDjxFmkslFab7IKxh8ghhPdM4t-f380m--Hbx4gqejRkYVh1jwZ)
 
 1. Na sua percepção, por que é importante o analista de QA participar desde o início
 do desenvolvimento de uma feature?
+    - Para validar o processo de criação e desenvolvimento da feature. Durante todo o processo deve ser pensada a qualidade das entregas, mesmo aquelas que não tem contato direto com o consumidor final, e o analita de QA é o profissional responsável por essa validação.
 
 1. Considerando a imagem abaixo uma tela de um sistema WEB, levante o maior
 número possível de casos de teste.
+    - Completar todos os campos corretamente, aceitar os termos e concluir o registro;
+    - 
