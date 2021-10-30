@@ -1,0 +1,146 @@
+{
+	"info": {
+		"_postman_id": "835fb924-8934-4c6a-89f3-aed000b631f8",
+		"name": "HP-API",
+		"description": "# API dos Personagens de Harry Potter\n\n### Feita em Json\n\n*   Contem apenas Gets\n*   Não precisa de autenticação\n*   Retorna um Json com os personagens da requisição",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "All Characters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api-HP}}/characters",
+					"host": [
+						"{{api-HP}}"
+					],
+					"path": [
+						"characters"
+					]
+				},
+				"description": "*   Retorna uma lista de todos os personagens do livros e seus dados em um json da seguinte forma\n    \n    ```\n    {\n        \"name\": \"Harry Potter\",\n        \"alternate_names\": [\n            \"\"\n        ],\n        \"species\": \"human\",\n        \"gender\": \"male\",\n        \"house\": \"Gryffindor\",\n        \"dateOfBirth\": \"31-07-1980\",\n        \"yearOfBirth\": 1980,\n        \"wizard\": true,\n        \"ancestry\": \"half-blood\",\n        \"eyeColour\": \"green\",\n        \"hairColour\": \"black\",\n        \"wand\": {\n            \"wood\": \"holly\",\n            \"core\": \"phoenix feather\",\n            \"length\": 11\n        },\n        \"patronus\": \"stag\",\n        \"hogwartsStudent\": true,\n        \"hogwartsStaff\": false,\n        \"actor\": \"Daniel Radcliffe\",\n        \"alternate_actors\": [\n            \"\"\n        ],\n        \"alive\": true,\n        \"image\": \"http://hp-api.herokuapp.com/images/harry.jpg\"\n    }\n    ```"
+			},
+			"response": []
+		},
+		{
+			"name": "Students",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api-HP}}/characters/students",
+					"host": [
+						"{{api-HP}}"
+					],
+					"path": [
+						"characters",
+						"students"
+					]
+				},
+				"description": "*   Retorna um Json com todos os personagens que são estudantes na história"
+			},
+			"response": []
+		},
+		{
+			"name": "Staff",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api-HP}}/characters/staff",
+					"host": [
+						"{{api-HP}}"
+					],
+					"path": [
+						"characters",
+						"staff"
+					]
+				},
+				"description": "- Retorna um Json com todos os personagens que são professores na história"
+			},
+			"response": []
+		},
+		{
+			"name": "Slytherin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api-HP}}/characters/house/slytherin",
+					"host": [
+						"{{api-HP}}"
+					],
+					"path": [
+						"characters",
+						"house",
+						"slytherin"
+					]
+				},
+				"description": "- Retorna todos os personagens membros da Sonserina"
+			},
+			"response": []
+		},
+		{
+			"name": "Gryffindor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api-HP}}/characters/house/gryffindor",
+					"host": [
+						"{{api-HP}}"
+					],
+					"path": [
+						"characters",
+						"house",
+						"gryffindor"
+					]
+				},
+				"description": "- Retorna todos os personagens membros da Grifinória"
+			},
+			"response": []
+		},
+		{
+			"name": "Hufflepuff",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api-HP}}/characters/house/hufflepuff",
+					"host": [
+						"{{api-HP}}"
+					],
+					"path": [
+						"characters",
+						"house",
+						"hufflepuff"
+					]
+				},
+				"description": "- Retorna todos os membros da Lufa-Lufa"
+			},
+			"response": []
+		},
+		{
+			"name": "Ravenclaw",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api-HP}}/characters/house/ravenclaw",
+					"host": [
+						"{{api-HP}}"
+					],
+					"path": [
+						"characters",
+						"house",
+						"ravenclaw"
+					]
+				},
+				"description": "- Retorna todos os membros da Corvinal"
+			},
+			"response": []
+		}
+	]
+}

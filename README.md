@@ -1,5 +1,20 @@
 # Teste Técnico QA
 
+### Testes API
+- Na pasta Postman se encontram as rotas da api usada nos testes, basta exportá-la no Postman
+- Para executar os testes automatizados, deve-se instalar o Python 3+, instalar as dependências com o comando.
+##### Recomendo a criação de um ambiente virtual para isso. Pode-se ler mais sobre [aqui](https://docs.python.org/pt-br/3/tutorial/venv.html).
+
+~~~Shell
+pip install -r requirements.txt
+~~~ 
+- Após instalar as dependências, execute o comando abaixo
+~~~Shell
+~~~
+
+### Testes WEB
+- Colocoar como rodar o ambiente
+
 ### Testes manuais - Respostas
 1. Com suas palavras, explique com detalhes sobre a pirâmide de testes.
     - A pirâmide de testes serve para representar graficamente e direcionar o time acerca do níveis e tipos de testes que serão desenvolvidos. Quanto mais perto  nível do topo da pirâmide mais caro e mais tempo demorará para testar e quando mais perto da base mais rápido e barato será para testar.
