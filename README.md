@@ -1,6 +1,7 @@
 # Teste Técnico QA
 
 ### Testes API
+- API usada nos testes: https://hp-api.herokuapp.com/
 - Na pasta Postman se encontram as rotas da api usada nos testes, basta exportá-la no Postman
 - Para executar os testes automatizados, deve-se instalar o Python 3+, instalar as dependências com o comando.
 ##### Recomendo a criação de um ambiente virtual para isso. Pode-se ler mais sobre [aqui](https://docs.python.org/pt-br/3/tutorial/venv.html).
