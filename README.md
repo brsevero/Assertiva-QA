@@ -1,6 +1,6 @@
 # Teste Técnico QA
 
-### Testes API
+### Testes API e WEB
 - API usada nos testes: https://hp-api.herokuapp.com/
 - Na pasta Postman se encontram as rotas da api usada nos testes, basta exportá-la no Postman
 - Para executar os testes automatizados, deve-se instalar o Python 3+, instalar as dependências com o comando.
@@ -9,12 +9,10 @@
 ~~~Shell
 pip install -r requirements.txt
 ~~~ 
-- Após instalar as dependências, execute o comando abaixo
+- Após instalar as dependências, execute o comando abaixo, na pasta do projeto
 ~~~Shell
+behave
 ~~~
-
-### Testes WEB
-- Colocoar como rodar o ambiente
 
 ### Testes manuais - Respostas
 1. Com suas palavras, explique com detalhes sobre a pirâmide de testes.
